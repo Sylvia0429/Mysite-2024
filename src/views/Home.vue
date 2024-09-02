@@ -30,19 +30,65 @@
         <div>
           <div class="block border border-[#D4C4B5] rounded-lg designCase1">
             <img src="../assets/image/designCase1.svg" alt="設計案例1">
-            <div class="card bg-base-100 w-96 shadow-xl designCase1Content">
-              <div class="card-body">
-                <h2 class="card-title">Card title!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div class="card-actions justify-end">
-                  <button class="btn btn-primary">Buy Now</button>
+            <div class="card w-[40%] shadow-xl bg-base-100 designCase1Content rounded-lg">
+              <div class="card-body p-12">
+                <p class="text-[32px]">郵輪旅遊服務整合網站</p>
+                <p class="text-lg">一站式遊輪旅遊服務網站匯集郵輪資訊，讓消費者輕鬆比較和選擇行程與價格。提升市場透明度，促進業者競爭，支持旅遊產業復甦，並通過數據分析幫助業者優化產品，推動市場健康成長。
+                </p>
+                <div class="flex gap-1 text-sm">
+                  <div class="rounded-[100px] bg-[#FFDDB9] px-4 py-2">#使用者中心設計</div>
+                  <div class="rounded-[100px] bg-[#FFDDB9] px-4 py-2">#使用者體驗</div>
+                  <div class="rounded-[100px] bg-[#FFDDB9] px-4 py-2">#使用者介面</div>
                 </div>
+                <a target="_blank" href="https://www.behance.net/gallery/204837457/SeaRate-"
+                  class="btn bg-[#825514] text-white rounded-[100px] h-10 min-h-10 mt-24 hover:bg-[#825514]">
+                  了解專案
+                  <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect x="0.5" y="0.5" width="16" height="16" fill="url(#pattern0_76_81)" />
+                    <defs>
+                      <pattern id="pattern0_76_81" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_76_81" transform="scale(0.0104167)" />
+                      </pattern>
+                      <image id="image0_76_81" width="96" height="96"
+                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAACH0lEQVR4nO2dMU7DUBAFXcBZgJqCo8EZCIHTRNwDOAcKhIoUgyxtEUGQI0T+W/99U+Of3RnHoUqGwRhjjDHGGGOMMcaYAwEugHvgBfigMcP0fKnm+TeAU+AB2LZecpcD5mxKS/mPJGAoGmC881MwVAsQz3zpY6d6gDR3f9UA4387aRgKBtiQiKFgAO0ADQAugVcHmJl8vwPE8h1ALN8BxPId4A8AV8D6QL+Tf9diYO0Aujt/HbEcQCU/rnMAlfy41gFU8uN6B1DJjzMcQCU/znEAlfw4ywFU8uM8B1DJjzMdQCU/znUAlfw42wFU8uN8B1DJj9dwAJX8eB0HUMlPgfwOqCw/WwCqyc8UgIryswSgqvwMAagsXx2A6vKVAbB8XQASyVfdgLIBSCS/XACSyS8VgITyywQgqfwSAUgsv/sAJJffdQBmIL/bAMxEfs8BbuYgv9sAI8B1dvldB5iIkEJ+9wF+iZBGfokA3yKkkl8mwM4Hcyr5pQJkRb6/fAAx8v3lA4iR7y8fQIx8f/kAYuT7ywcQI99fPoAY+f7yAcTI95cPIEa+v3wAMfL95QOIke8vH0CMfH/5AGLk+wPvU0MU5q3cVxcn46lFgKV6y8Tctghwnunr6xPxCZwdPUBE8LvgJ4sm8iPACbDaM0RVVqOTZgF2IiyLP462453fXP6ez4Q74DnbbwsciU3sumj2zDfGGGOMMcYYY4wxQw98AQuI/+97XYGIAAAAAElFTkSuQmCC" />
+                    </defs>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="block border border-[#D4C4B5] rounded-lg designCase1">
+            <img src="../assets/image/designCase2.svg" alt="設計案例2">
+            <div class="card w-[40%] shadow-xl bg-base-100 designCase1Content rounded-lg">
+              <div class="card-body p-12">
+                <p class="text-[32px]">長照服務車輛媒合平台</p>
+                <p class="text-lg">
+                  面對高齡化社會對移動服務的需求，我們推出了桃園地區的「長照服務車輛媒合平台」，透過共享經濟整合政府專車、復康巴士及民間租賃車輛資源，快速匹配長者及其家屬的交通需求。平台使用數位化系統，標準化服務管理，並計畫進一步整合長照2.0創新服務，實現「社會服務中的移動性」願景。
+                </p>
+                <div class="flex gap-1 text-sm">
+                  <div class="rounded-[100px] bg-[#FFDDB9] px-4 py-2">#UIUX 設計</div>
+                  <div class="rounded-[100px] bg-[#FFDDB9] px-4 py-2">#跨平台</div>
+                  <div class="rounded-[100px] bg-[#FFDDB9] px-4 py-2">#設計系統</div>
+                </div>
+                <a class="btn bg-[#825514] text-white rounded-[100px] h-10 min-h-10 mt-24 hover:bg-[#825514]">
+                  了解專案
+                  <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect x="0.5" y="0.5" width="16" height="16" fill="url(#pattern0_76_81)" />
+                    <defs>
+                      <pattern id="pattern0_76_81" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_76_81" transform="scale(0.0104167)" />
+                      </pattern>
+                      <image id="image0_76_81" width="96" height="96"
+                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAACH0lEQVR4nO2dMU7DUBAFXcBZgJqCo8EZCIHTRNwDOAcKhIoUgyxtEUGQI0T+W/99U+Of3RnHoUqGwRhjjDHGGGOMMcaYAwEugHvgBfigMcP0fKnm+TeAU+AB2LZecpcD5mxKS/mPJGAoGmC881MwVAsQz3zpY6d6gDR3f9UA4387aRgKBtiQiKFgAO0ADQAugVcHmJl8vwPE8h1ALN8BxPId4A8AV8D6QL+Tf9diYO0Aujt/HbEcQCU/rnMAlfy41gFU8uN6B1DJjzMcQCU/znEAlfw4ywFU8uM8B1DJjzMdQCU/znUAlfw42wFU8uN8B1DJj9dwAJX8eB0HUMlPgfwOqCw/WwCqyc8UgIryswSgqvwMAagsXx2A6vKVAbB8XQASyVfdgLIBSCS/XACSyS8VgITyywQgqfwSAUgsv/sAJJffdQBmIL/bAMxEfs8BbuYgv9sAI8B1dvldB5iIkEJ+9wF+iZBGfokA3yKkkl8mwM4Hcyr5pQJkRb6/fAAx8v3lA4iR7y8fQIx8f/kAYuT7ywcQI99fPoAY+f7yAcTI95cPIEa+v3wAMfL95QOIke8vH0CMfH/5AGLk+wPvU0MU5q3cVxcn46lFgKV6y8Tctghwnunr6xPxCZwdPUBE8LvgJ4sm8iPACbDaM0RVVqOTZgF2IiyLP462453fXP6ez4Q74DnbbwsciU3sumj2zDfGGGOMMcYYY4wxQw98AQuI/+97XYGIAAAAAElFTkSuQmCC" />
+                    </defs>
+                  </svg>
+                </a>
               </div>
             </div>
           </div>
         </div>
-        <a class="block border border-[#D4C4B5] rounded-lg"><img class="rounded-lg"
-            src="../assets/image/designCase2.svg" alt="設計案例2"></a>
       </div>
       <a class="btn bg-[#825514] text-white w-[156px] hover:bg-[#825514]" target="_blank"
         href="https://www.behance.net/siyu_chen/projects">查看更多專案</a>
@@ -98,19 +144,38 @@
 </script>
 
 <style>
+.designCase1 {
+  position: relative;
+  /* 父容器設定為相對定位 */
+  display: inline-block;
+  /* 使容器的尺寸適應內容 */
+  overflow: hidden;
+  /* 隱藏超出容器的部分 */
+}
+
+.designCase1:hover::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.4;
+  /* 設置圖片在 hover 時的透明度 */
+}
+
 .designCase1Content {
-  display: none;
+  position: absolute;
+  top: 50%;
+  right: -500px;
+  transform: translate(0%, -50%);
 }
 
 .designCase1:hover .designCase1Content {
-  display: block;
-  position: absolute;
-  top: -45px;
-  left: 0;
-  color: #fff;
-  font-size: .8em;
-  background: #346e7a;
-  padding: 5px;
-  border-radius: 5px;
+  right: 10px;
+  z-index: 9999;
+  transition: 0.2s 0.2s ease;
+  /* 添加平滑的過渡效果 */
 }
 </style>
