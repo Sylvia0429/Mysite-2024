@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+  font-family: 'IBM Plex Sans, sans-serif';
+}
+
+#app {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr repeat(10, 1fr) 1fr; /* 左右各1fr，中間10fr */
+  grid-template-rows: auto; /* 內容自動調整高度 */
+  min-height: 100vh; /* 佔滿整個視窗高度 */
+}
+
+.content {
+  grid-column: 2 / 12; /* 內容區域從第2格到第12格 */
+  padding: 20px;
+}
+
+.borderBottom{
+  position: relative;
+}
+
+.borderBottom::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -100vw;
+  width: 200vw; /* 視窗寬度 */
+  height: 1px; /* 邊框高度 */
+  background-color: #D4C4B5; /* 邊框顏色 */
+  z-index: -1;
+}
+
+.borderTitle {
+  display: flex; /* 使用flex布局，方便在標題左右添加線條 */
+  align-items: center; /* 讓線條和文字垂直居中 */
+  text-align: center;
+}
+
+.borderTitle::before,
+  .borderTitle::after {
+    content: "";
+    width: 128px; /* 讓線條自動延展，佔滿可用空間 */
+    border-bottom: 1px solid #D4C4B5; /* 設置線條樣式 */
+    margin: 0 10px; /* 線條與文字之間的間距 */
+  }
