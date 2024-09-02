@@ -4,19 +4,19 @@
     <div class="py-6">
       <p class="text-2xl text-[#4C4136] mb-2">或從這裡找到我</p>
       <div>
-        <a href="https://www.behance.net/siyu_chen/projects">
+        <a target="_blank" href="https://www.behance.net/siyu_chen/projects">
           <img class="inline" src="../assets/image/BehanceIcon.svg" alt="BehanceIcon">
         </a>
-        <a href="https://medium.com/@a0918109701">
+        <a target="_blank" href="https://medium.com/@a0918109701">
           <img class="inline" src="../assets/image/MediumIcon.svg" alt="MediumIcon">
         </a>
-        <a href="https://dribbble.com/Sylvia0429">
+        <a target="_blank" href="https://dribbble.com/Sylvia0429">
           <img class="inline" src="../assets/image/DribbleIcon.svg" alt="DribbleIcon">
         </a>
-        <a href="https://www.pinterest.com/joan062099/_created/">
+        <a target="_blank" href="https://www.pinterest.com/joan062099/_created/">
           <img class="inline" src="../assets/image/PinterstIcon.svg" alt="PinterstIcon">
         </a>
-        <a href="https://www.linkedin.com/in/sylvia-chen-a4824229b">
+        <a target="_blank" href="https://www.linkedin.com/in/sylvia-chen-a4824229b">
           <img class="inline" src="../assets/image/linkinIcon.svg" alt="linkinIcon">
         </a>
       </div>
