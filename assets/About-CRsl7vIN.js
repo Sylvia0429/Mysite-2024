@@ -1,0 +1,1 @@
+import{_ as o,c as t,o as s,b as e}from"./index-1C9tfPVv.js";const c={},_={class:"py-20 flex borderBottom"},n=e("div",null,"123",-1),r=e("div",null,"456",-1),a=[n,r];function d(i,l){return s(),t("div",_,a)}const u=o(c,[["render",d]]);export{u as default};

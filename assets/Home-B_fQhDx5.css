@@ -1,0 +1,1 @@
+.designCase1{position:relative;display:inline-block;overflow:hidden}.designCase1:hover:after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-color:#000;opacity:.4}.designCase1Content{position:absolute;top:50%;right:-500px;transform:translateY(-50%)}.designCase1:hover .designCase1Content{right:10px;z-index:9999;transition:.2s .2s ease}
