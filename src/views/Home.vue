@@ -9,15 +9,15 @@
             class="bg-[#D7E9B8] rounded-lg p-3 mx-1">追求介面美感</span>，致力於將美學與功能性完美結合。</p>
       </div>
       <div class="font-bold mb-6 items-center flex">
-        <button class="btn bg-[#825514] text-white w-24 hover:bg-[#916930] mr-4">關於我</button>
-        <button class="btn bg-[#FFDDB9] w-[132px] border-none flex items-center hover:bg-[#E3C5A7]">
+        <!-- <button class="btn bg-[#825514] text-white w-24 hover:bg-[#916930] mr-4">關於我</button> -->
+        <a @click="downloadpdf" class="btn bg-[#FFDDB9] w-[132px] border-none flex items-center hover:bg-[#E3C5A7]">
           <svg width="20" height="20" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M8 11.575C7.86667 11.575 7.74167 11.554 7.625 11.512C7.50833 11.4707 7.4 11.4 7.3 11.3L3.7 7.7C3.51667 7.51667 3.425 7.28333 3.425 7C3.425 6.71667 3.51667 6.48333 3.7 6.3C3.88333 6.11667 4.12067 6.02067 4.412 6.012C4.704 6.004 4.94167 6.09167 5.125 6.275L7 8.15V1C7 0.716667 7.096 0.479 7.288 0.287C7.47933 0.0956668 7.71667 0 8 0C8.28333 0 8.521 0.0956668 8.713 0.287C8.90433 0.479 9 0.716667 9 1V8.15L10.875 6.275C11.0583 6.09167 11.296 6.004 11.588 6.012C11.8793 6.02067 12.1167 6.11667 12.3 6.3C12.4833 6.48333 12.575 6.71667 12.575 7C12.575 7.28333 12.4833 7.51667 12.3 7.7L8.7 11.3C8.6 11.4 8.49167 11.4707 8.375 11.512C8.25833 11.554 8.13333 11.575 8 11.575ZM2 16C1.45 16 0.979333 15.8043 0.588 15.413C0.196 15.021 0 14.55 0 14V12C0 11.7167 0.0956668 11.479 0.287 11.287C0.479 11.0957 0.716667 11 1 11C1.28333 11 1.521 11.0957 1.713 11.287C1.90433 11.479 2 11.7167 2 12V14H14V12C14 11.7167 14.096 11.479 14.288 11.287C14.4793 11.0957 14.7167 11 15 11C15.2833 11 15.5207 11.0957 15.712 11.287C15.904 11.479 16 11.7167 16 12V14C16 14.55 15.8043 15.021 15.413 15.413C15.021 15.8043 14.55 16 14 16H2Z"
               fill="#2B1700" />
           </svg>
           下載履歷
-        </button>
+        </a>
       </div>
       <p class="text-[#504539]">我熱愛學習與分享，並持續精進並回饋社群️‍️‍🌞️</p>
       <img class="w-[173px] h-[143px] absolute left-[-230px] top-[20px]" src="../assets/image/dot1.svg" alt="上點點">
@@ -33,7 +33,7 @@
             <div class="w-[30%] p-4 aspect-square designCase1Content rounded-lg">
               <div>
                 <p class="text-[28px]">郵輪旅遊服務整合網站</p>
-                <p class="text-lg">一站式遊輪旅遊服務網站匯集郵輪資訊，讓消費者輕鬆比較和選擇行程與價格。提升市場透明度，促進業者競爭，支持旅遊產業復甦，並通過數據分析幫助業者優化產品，推動市場健康成長。
+                <p class="text-base">一站式遊輪旅遊服務網站匯集郵輪資訊，讓消費者輕鬆比較和選擇行程與價格。提升市場透明度，促進業者競爭，支持旅遊產業復甦，並通過數據分析幫助業者優化產品，推動市場健康成長。
                 </p>
                 <div class="text-sm mt-4">
                   <div class="flex gap-1 w-full mb-4">
@@ -44,7 +44,7 @@
                   <span class="rounded-[100px] bg-[#FFDDB9] px-4 py-2">#市場調查</span>
                 </div>
                 <a target="_blank" href="https://www.behance.net/gallery/204837457/SeaRate-"
-                  class="btn bg-[#825514] text-white rounded-[100px] h-10 min-h-10 mt-8 w-full hover:bg-[#E3C5A7]">
+                  class="btn bg-[#825514] text-white rounded-[100px] h-10 min-h-10 mt-32 w-full hover:bg-[#E3C5A7]">
                   了解專案
                   <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -66,7 +66,7 @@
             <div class="w-[30%] p-4 aspect-square shadow-xl bg-base-100 designCase1Content rounded-lg">
               <div>
                 <p class="text-[28px]">長照服務車輛媒合平台</p>
-                <p class="text-lg">
+                <p class="text-base">
                   面對高齡化社會對移動服務的需求，我們推出了桃園地區的「長照服務車輛媒合平台」，透過共享經濟整合政府專車、復康巴士及民間租賃車輛資源，快速匹配長者及其家屬的交通需求。平台使用數位化系統，標準化服務管理，並計畫進一步整合長照2.0創新服務，實現「社會服務中的移動性」願景。
                 </p>
                 <div class="flex gap-1 text-sm mt-4">
@@ -74,7 +74,7 @@
                   <span class="rounded-[100px] bg-[#FFDDB9] px-4 py-2">#跨平台</span>
                   <span class="rounded-[100px] bg-[#FFDDB9] px-4 py-2">#設計系統</span>
                 </div>
-                <a class="btn bg-[#825514] text-white rounded-[100px] h-10 min-h-10 mt-2 w-full hover:bg-[#E3C5A7]">
+                <a target="_blank" href="https://www.behance.net/gallery/205943557/Matching-Platform" class="btn bg-[#825514] text-white rounded-[100px] h-10 min-h-10 mt-32 w-full hover:bg-[#E3C5A7]">
                   了解專案
                   <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -98,16 +98,16 @@
     </div>
     <!-- 互動  -->
     <div class="py-20 flex flex-col items-center justify-center borderBottom">
-      <p class="text-[32px] borderTitle mb-6">互動/</p>
+      <p class="text-[32px] borderTitle mb-6">互動/原型練習 </p>
       <div class="my-6">
         <div class="grid grid-cols-2">
-          <img src="../assets/image/screenityVideo.gif" alt="互動gif1">
-          <img src="../assets/image/interactionGif2.gif" alt="互動gif2">
+          <img class="rounded-tl-lg"  src="../assets/image/screenityVideo.gif" alt="互動gif1">
+          <img class="rounded-tr-lg" src="../assets/image/interactionGif2.gif" alt="互動gif2">
         </div>
         <div class="grid grid-cols-3">
-          <img src="../assets/image/interactionGif3.gif" alt="互動gif3">
+          <img class="rounded-bl-lg" src="../assets/image/interactionGif3.gif" alt="互動gif3">
           <img src="../assets/image/interactionGif4.gif" alt="互動gif4">
-          <img src="../assets/image/interactionGif5.gif" alt="互動gif5">
+          <img class="rounded-br-lg" src="../assets/image/interactionGif5.gif" alt="互動gif5">
         </div>
       </div>
       <a class="btn bg-[#825514] text-white w-[192px] hover:bg-[#916930]" target="_blank"
@@ -125,7 +125,7 @@
         </a>
         <a class="block" target="_blank"
           href="https://medium.com/@a0918109701/%E4%BB%80%E9%BA%BC%E6%98%AF%E4%BD%BF%E7%94%A8%E8%80%85%E4%B8%AD%E5%BF%83%E8%A8%AD%E8%A8%88-%E5%A6%82%E4%BD%95%E8%AE%93%E4%BD%A0%E7%9A%84%E7%94%A2%E5%93%81%E7%9C%9F%E6%AD%A3%E7%82%BA%E4%BD%BF%E7%94%A8%E8%80%85%E6%9C%8D%E5%8B%99-1463ae0e9537">
-          <div class="rounded-lg hover:shadow-md">
+          <div class="border border-[#D4C4B5]  rounded-lg hover:shadow-md">
             <img class="rounded-lg" src="../assets/image/article2.svg" alt="寫作文章圖2">
           </div>
           <p class="text-xl font-bold mt-1">什麼是使用者中心設計？如何讓你的產品真正為使用者服務？</p>
@@ -158,13 +158,21 @@
         </div>
       </div>
       <a class="btn bg-[#825514] text-white w-[156px] hover:bg-[#916930]" target="_blank"
-      href="https://www.pinterest.com/joan062099/_created/"
-      >查看更多作品</a>
+        href="https://www.pinterest.com/joan062099/_created/">查看更多作品</a>
     </div>
   </div>
 </template>
 
 <script setup>
+const downloadpdf = () => {
+  const pdfUrl = 'https://drive.usercontent.google.com/u/0/uc?id=1fr7N2L0UB1Yhx28xANooatDU_r7CoGH8&export=download'; // PDF 文件的 URL
+  const link = document.createElement('a'); // 創建一個隱藏的 <a> 標籤
+  link.href = pdfUrl;
+  link.setAttribute('download', 'Sylvia’s resume.pdf'); // 設置下載屬性，指定下載文件名
+  document.body.appendChild(link);
+  link.click(); // 模擬點擊以觸發下載
+  document.body.removeChild(link); // 下載後移除標籤
+}
 </script>
 
 <style>
