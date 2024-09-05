@@ -28,7 +28,7 @@
       <p class="text-[32px] borderTitle mb-6">設計案例</p>
       <div class="my-6">
         <div>
-          <div class="block border border-[#D4C4B5] rounded-lg designCase1">
+          <div class="block rounded-lg designCase1">
             <img src="../assets/image/designCase1.svg" alt="設計案例1">
             <div class="w-[30%] p-4 aspect-square designCase1Content rounded-lg">
               <div class="h-full flex flex-col">
@@ -146,15 +146,15 @@
       <p class="text-[32px] borderTitle mb-6">商業設計 / 插畫</p>
       <div class="grid grid-cols-3 my-6 min-h-[630px] w-full">
         <div class="h-full">
-          <div class="bg-[url('@/assets/image/illustration1.svg')] bg-cover bg-center h-1/2 w-full"></div>
-          <div class="bg-[url('@/assets/image/illustration2.svg')] bg-cover bg-center h-1/2 w-full"></div>
+          <div class="bg-[url('@/assets/image/illustration1.svg')] bg-cover bg-center h-1/2 w-full rounded-tl-lg"></div>
+          <div class="bg-[url('@/assets/image/illustration2.svg')] bg-cover bg-center h-1/2 w-full rounded-bl-lg"></div>
         </div>
         <div>
           <div class="bg-[url('@/assets/image/illustration3.svg')] bg-cover bg-center h-2/3 w-full"></div>
           <div class="bg-[url('@/assets/image/illustration4.svg')] bg-cover bg-center h-1/3 w-full"></div>
         </div>
         <div>
-          <div class="bg-[url('@/assets/image/illustration5.svg')] bg-cover bg-center h-full w-full"></div>
+          <div class="bg-[url('@/assets/image/illustration5.svg')] bg-cover bg-center h-full w-full rounded-r-lg"></div>
         </div>
       </div>
       <a class="btn bg-[#825514] text-white w-[156px] hover:bg-[#916930]" target="_blank"
@@ -206,7 +206,7 @@ const downloadpdf = () => {
 }
 
 .designCase1:hover .designCase1Content {
-  right: 10px;
+  right: 25px;
   z-index: 10;
   transition: 0.1s 0.1s ease;
   /* 添加平滑的過渡效果 */
