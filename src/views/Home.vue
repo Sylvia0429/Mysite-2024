@@ -31,7 +31,7 @@
           <div class="block border border-[#D4C4B5] rounded-lg designCase1">
             <img src="../assets/image/designCase1.svg" alt="設計案例1">
             <div class="w-[30%] p-4 aspect-square designCase1Content rounded-lg">
-              <div>
+              <div class="h-full flex flex-col">
                 <p class="text-[28px]">郵輪旅遊服務整合網站</p>
                 <p class="text-base">一站式遊輪旅遊服務網站匯集郵輪資訊，讓消費者輕鬆比較和選擇行程與價格。提升市場透明度，促進業者競爭，支持旅遊產業復甦，並通過數據分析幫助業者優化產品，推動市場健康成長。
                 </p>
@@ -44,7 +44,7 @@
                   <span class="rounded-[100px] bg-[#FFDDB9] px-4 py-2">#市場調查</span>
                 </div>
                 <a target="_blank" href="https://www.behance.net/gallery/204837457/SeaRate-"
-                  class="btn bg-[#825514] text-white rounded-[100px] h-10 min-h-10 mt-32 w-full hover:bg-[#E3C5A7]">
+                  class="btn bg-[#825514] text-white rounded-[100px] h-10 min-h-10 mt-auto w-full hover:bg-[#E3C5A7]">
                   了解專案
                   <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -64,7 +64,7 @@
           <div class="block border border-[#D4C4B5] rounded-lg designCase1">
             <img src="../assets/image/designCase2.svg" alt="設計案例2">
             <div class="w-[30%] p-4 aspect-square shadow-xl bg-base-100 designCase1Content rounded-lg">
-              <div>
+              <div class="h-full flex flex-col">
                 <p class="text-[28px]">長照服務車輛媒合平台</p>
                 <p class="text-base">
                   面對高齡化社會對移動服務的需求，我們推出了桃園地區的「長照服務車輛媒合平台」，透過共享經濟整合政府專車、復康巴士及民間租賃車輛資源，快速匹配長者及其家屬的交通需求。平台使用數位化系統，標準化服務管理，並計畫進一步整合長照2.0創新服務，實現「社會服務中的移動性」願景。
@@ -74,7 +74,7 @@
                   <span class="rounded-[100px] bg-[#FFDDB9] px-4 py-2">#跨平台</span>
                   <span class="rounded-[100px] bg-[#FFDDB9] px-4 py-2">#設計系統</span>
                 </div>
-                <a target="_blank" href="https://www.behance.net/gallery/205943557/Matching-Platform" class="btn bg-[#825514] text-white rounded-[100px] h-10 min-h-10 mt-32 w-full hover:bg-[#E3C5A7]">
+                <a target="_blank" href="https://www.behance.net/gallery/205943557/Matching-Platform" class="btn bg-[#825514] text-white rounded-[100px] h-10 min-h-10 mt-auto w-full hover:bg-[#E3C5A7]">
                   了解專案
                   <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink">

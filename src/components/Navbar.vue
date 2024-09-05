@@ -1,6 +1,6 @@
 <template>
   <div class="sticky-sentinel" ref="sentinel"></div> <!-- 透明占位元素 -->
-  <div ref="navbar" class="navbar bg-base-100 px-8 py-6 sticky top-10 z-50" :class="{ 'rounded-[100px] shadow-md': isSticky }">
+  <div ref="navbar" class="navbar bg-base-100 px-8 py-6 sticky top-5 z-50" :class="{ 'rounded-[100px] shadow-md': isSticky }">
     <div class="flex-1">
       <div class="btn btn-ghost btn-circle avatar border-none">
         <div class="w-12 rounded-full">
