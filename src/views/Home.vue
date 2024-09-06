@@ -9,7 +9,7 @@
             class="bg-[#D7E9B8] rounded-lg p-3 mx-1">追求介面美感</span>，致力於將美學與功能性完美結合。</p>
       </div>
       <div class="font-bold mb-6 items-center flex">
-        <button @click="goAbout" class="btn bg-[#825514] text-white w-24 hover:bg-[#916930] mr-4">關於我</button>
+        <Button @click="goAbout" :text="'關於我'" :bgColor="'#825514'" :textColor="'white'" :hoverBgColor="'#916930'" class="mr-4"></Button>
         <a @click="downloadpdf" class="btn bg-[#FFDDB9] w-[132px] border-none flex items-center hover:bg-[#E3C5A7]">
           <svg width="20" height="20" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -93,8 +93,7 @@
           </div>
         </div>
       </div>
-      <a class="btn bg-[#825514] text-white w-[156px] hover:bg-[#916930]" target="_blank"
-        href="https://www.behance.net/siyu_chen/projects">查看更多專案</a>
+      <Button target="_blank" href="https://www.behance.net/siyu_chen/projects" :text="'查看更多專案'" :bgColor="'#825514'" :textColor="'white'" :hoverBgColor="'#916930'" class="px-8"></Button>
     </div>
     <!-- 互動  -->
     <div class="py-20 flex flex-col items-center justify-center borderBottom">
@@ -110,8 +109,7 @@
           <img class="rounded-br-lg" src="../assets/image/interactionGif5.gif" alt="互動gif5">
         </div>
       </div>
-      <a class="btn bg-[#825514] text-white w-[192px] hover:bg-[#916930]" target="_blank"
-        href="https://dribbble.com/Sylvia0429">查看更多設計作品</a>
+      <Button target="_blank" href="https://dribbble.com/Sylvia0429" :text="'查看更多設計作品'" :bgColor="'#825514'" :textColor="'white'" :hoverBgColor="'#916930'" class="px-8"></Button>
     </div>
     <!-- 寫作文章 -->
     <div class="py-20 flex flex-col items-center justify-center borderBottom">
@@ -138,8 +136,7 @@
           <p class="text-xl font-bold mt-1">深入使用者需求：UX 研究前期的三大質性方法</p>
         </a>
       </div>
-      <a class="btn bg-[#825514] text-white w-[156px] hover:bg-[#916930]" target="_blank"
-        href="https://medium.com/@a0918109701">查看更多文章</a>
+      <Button target="_blank" href="https://medium.com/@a0918109701" :text="'查看更多文章'" :bgColor="'#825514'" :textColor="'white'" :hoverBgColor="'#916930'" class="px-8"></Button>
     </div>
     <!-- 商業設計 / 插畫 -->
     <div class="py-20 flex flex-col items-center justify-center borderBottom">
@@ -157,13 +154,13 @@
           <div class="bg-[url('@/assets/image/illustration5.svg')] bg-cover bg-center h-full w-full rounded-r-lg"></div>
         </div>
       </div>
-      <a class="btn bg-[#825514] text-white w-[156px] hover:bg-[#916930]" target="_blank"
-        href="https://www.pinterest.com/joan062099/_created/">查看更多作品</a>
+      <Button target="_blank" href="https://www.pinterest.com/joan062099/_created/" :text="'查看更多作品'" :bgColor="'#825514'" :textColor="'white'" :hoverBgColor="'#916930'" class="px-8"></Button>
     </div>
   </div>
 </template>
 
 <script setup>
+import Button from '@/components/Button.vue'
 import { useRouter } from 'vue-router'
 const router = useRouter()
 
