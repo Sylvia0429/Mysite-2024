@@ -1,6 +1,6 @@
 <template>
   <div class="sticky-sentinel" ref="sentinel"></div> <!-- 透明占位元素 -->
-  <div ref="navbar" class="navbar bg-base-100 px-2 sticky top-0 z-50" :class="{ 'rounded-[100px] shadow-md': isSticky }">
+  <div ref="navbar" class="navbar bg-base-100 px-8 py-6 sticky top-5 z-50" :class="{ 'rounded-[100px] shadow-md': isSticky }">
     <div class="flex-1">
       <div class="btn btn-ghost btn-circle avatar border-none">
         <div class="w-12 rounded-full">
@@ -12,10 +12,10 @@
       <button @click="goHome"
         class="btn min-h-10 w-24 h-10 rounded-[100px] bg-white text-[#825514]  border-none shadow-none hover:bg-[#825514] hover:bg-opacity-[12%]"
         :class="{ '!bg-[#825514] !text-white': $route.path === '/' }">設計案例</button>
-      <button @click="goAbout"
+      <!-- <button @click="goAbout"
         class="btn min-h-10 w-20 h-10 rounded-[100px] bg-white text-[#825514] border-none shadow-none hover:bg-[#825514] hover:bg-opacity-[12%]"
-        :class="{ '!bg-[#825514] !text-white': $route.path === '/About' }">關於我</button>
-      <button
+        :class="{ '!bg-[#825514] !text-white': $route.path === '/About' }">關於我</button> -->
+      <button @click="downloadpdf"
         class="btn min-h-10 w-[116px] h-10 rounded-[100px] bg-[#FFDDB9] border-none flex items-center hover:bg-[#E3C5A7]">
         <svg width="20" height="20" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -41,6 +41,16 @@ const goHome = () => {
 //往關於我
 const goAbout = () => {
   router.push('/About')
+}
+
+const downloadpdf = () => {
+  const pdfUrl = 'https://drive.usercontent.google.com/u/0/uc?id=1fr7N2L0UB1Yhx28xANooatDU_r7CoGH8&export=download'; // PDF 文件的 URL
+  const link = document.createElement('a'); // 創建一個隱藏的 <a> 標籤
+  link.href = pdfUrl;
+  link.setAttribute('download', 'Sylvia’s resume.pdf'); // 設置下載屬性，指定下載文件名
+  document.body.appendChild(link);
+  link.click(); // 模擬點擊以觸發下載
+  document.body.removeChild(link); // 下載後移除標籤
 }
 
 const isSticky = ref(false) // 用來追蹤是否處於 sticky 狀態
