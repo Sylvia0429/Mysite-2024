@@ -9,7 +9,7 @@
             class="bg-[#D7E9B8] rounded-lg p-3 mx-1">追求介面美感</span>，致力於將美學與功能性完美結合。</p>
       </div>
       <div class="font-bold mb-6 items-center flex">
-        <!-- <button class="btn bg-[#825514] text-white w-24 hover:bg-[#916930] mr-4">關於我</button> -->
+        <button @click="goAbout" class="btn bg-[#825514] text-white w-24 hover:bg-[#916930] mr-4">關於我</button>
         <a @click="downloadpdf" class="btn bg-[#FFDDB9] w-[132px] border-none flex items-center hover:bg-[#E3C5A7]">
           <svg width="20" height="20" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -164,8 +164,16 @@
 </template>
 
 <script setup>
+import { useRouter } from 'vue-router'
+const router = useRouter()
+
+//往關於我
+const goAbout = () => {
+  router.push('/About')
+}
+
 const downloadpdf = () => {
-  const pdfUrl = 'https://drive.usercontent.google.com/u/0/uc?id=1fr7N2L0UB1Yhx28xANooatDU_r7CoGH8&export=download'; // PDF 文件的 URL
+  const pdfUrl = 'https://drive.usercontent.google.com/u/0/uc?id=1zRklm4PoH6yNnojg8rzi82qya-Y-1hyK&export=download'; // PDF 文件的 URL
   const link = document.createElement('a'); // 創建一個隱藏的 <a> 標籤
   link.href = pdfUrl;
   link.setAttribute('download', 'Sylvia’s resume.pdf'); // 設置下載屬性，指定下載文件名

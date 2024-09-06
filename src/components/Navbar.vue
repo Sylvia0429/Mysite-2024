@@ -12,9 +12,9 @@
       <button @click="goHome"
         class="btn min-h-10 w-24 h-10 rounded-[100px] bg-white text-[#825514]  border-none shadow-none hover:bg-[#825514] hover:bg-opacity-[12%]"
         :class="{ '!bg-[#825514] !text-white': $route.path === '/' }">設計案例</button>
-      <!-- <button @click="goAbout"
+      <button @click="goAbout"
         class="btn min-h-10 w-20 h-10 rounded-[100px] bg-white text-[#825514] border-none shadow-none hover:bg-[#825514] hover:bg-opacity-[12%]"
-        :class="{ '!bg-[#825514] !text-white': $route.path === '/About' }">關於我</button> -->
+        :class="{ '!bg-[#825514] !text-white': $route.path === '/About' }">關於我</button>
       <button @click="downloadpdf"
         class="btn min-h-10 w-[116px] h-10 rounded-[100px] bg-[#FFDDB9] border-none flex items-center hover:bg-[#E3C5A7]">
         <svg width="20" height="20" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -44,7 +44,7 @@ const goAbout = () => {
 }
 
 const downloadpdf = () => {
-  const pdfUrl = 'https://drive.usercontent.google.com/u/0/uc?id=1fr7N2L0UB1Yhx28xANooatDU_r7CoGH8&export=download'; // PDF 文件的 URL
+  const pdfUrl = 'https://drive.usercontent.google.com/u/0/uc?id=1zRklm4PoH6yNnojg8rzi82qya-Y-1hyK&export=download'; // PDF 文件的 URL
   const link = document.createElement('a'); // 創建一個隱藏的 <a> 標籤
   link.href = pdfUrl;
   link.setAttribute('download', 'Sylvia’s resume.pdf'); // 設置下載屬性，指定下載文件名
