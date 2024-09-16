@@ -170,7 +170,7 @@ const goAbout = () => {
 }
 
 const downloadpdf = () => {
-  const pdfUrl = 'https://drive.usercontent.google.com/u/0/uc?id=1zRklm4PoH6yNnojg8rzi82qya-Y-1hyK&export=download'; // PDF 文件的 URL
+  const pdfUrl = 'https://drive.usercontent.google.com/u/0/uc?id=1J7httZ4RvQPH692I-p1wqCJGYipG-jPV&export=download'; // PDF 文件的 URL
   const link = document.createElement('a'); // 創建一個隱藏的 <a> 標籤
   link.href = pdfUrl;
   link.setAttribute('download', 'Sylvia’s resume.pdf'); // 設置下載屬性，指定下載文件名
